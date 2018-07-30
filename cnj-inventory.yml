@@ -2,4 +2,4 @@ server:
   port: 8703
 
 # Demo endpoint that returns value of success
-success: true
+success: false
