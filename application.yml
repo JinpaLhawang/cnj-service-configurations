@@ -1,0 +1,14 @@
+# SERVICE DISCOVERY
+eureka:
+  client:
+    enabled: true
+    serviceUrl:
+      defaultZone: http://cnj-service-discovery:8761/eureka
+
+# CENTRALIZED CONFIGURATION
+# Enable Actuator Refresh Endpoint
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
