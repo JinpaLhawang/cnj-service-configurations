@@ -1,0 +1,7 @@
+server:
+  port: 8702
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://cnj-order-mongo:27017/order
