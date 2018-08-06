@@ -7,3 +7,6 @@ spring:
     username: dbuser
     password: dbp4ss
     platform: mysql
+  jackson:
+    serialization:
+      indent-output: true
