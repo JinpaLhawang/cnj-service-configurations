@@ -12,3 +12,10 @@ management:
     web:
       exposure:
         include: "*"
+
+# REST CONTROLLERS
+# Pretty-print JSON for non-HATEOS response objects
+spring:
+  jackson:
+    serialization:
+      indent-output: true
